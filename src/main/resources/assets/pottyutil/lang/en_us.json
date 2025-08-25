@@ -1,0 +1,9 @@
+{
+  "item.pottyutil.test_item": "Test Item",
+  "block.pottyutil.test_block": "Test Block",
+  "block.pottyutil.pedestal": "Pedestal",
+  "block.pottyutil.pedestal2": "Quartz Pedestal",
+
+  "itemgroup.pottyutil.potty_util_items": "Potty Util Items",
+  "itemgroup.pottyutil.potty_util_blocks": "Potty Util Blocks"
+}
