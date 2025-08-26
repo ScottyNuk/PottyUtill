@@ -34,6 +34,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TEST_BLOCK);
                         entries.add(ModBlocks.PEDESTAL);
                         entries.add(ModBlocks.PEDESTAL2);
+                        entries.add(ModBlocks.PEDESTAL3);
 
                         ModBlockEntities.registerBlockEntities();
 

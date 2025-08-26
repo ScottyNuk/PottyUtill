@@ -15,7 +15,16 @@ public class ModBlockEntities {
                     Identifier.of(PottyUtil.MOD_ID, "pedestal_be"),
                     BlockEntityType.Builder.create(PedestalBlockEntity::new,
                             ModBlocks.PEDESTAL,
-                            ModBlocks.PEDESTAL2
+                            ModBlocks.PEDESTAL2,
+                            ModBlocks.PEDESTAL3
+                    ).build()
+            );
+    public static final BlockEntityType<PedestalBlockEntity> PSC_BE =
+            Registry.register(
+                    Registries.BLOCK_ENTITY_TYPE,
+                    Identifier.of(PottyUtil.MOD_ID, "psc_be"),
+                    BlockEntityType.Builder.create(PedestalBlockEntity::new,
+                            ModBlocks.TEST_BLOCK
                     ).build()
             );
     public static void registerBlockEntities() {

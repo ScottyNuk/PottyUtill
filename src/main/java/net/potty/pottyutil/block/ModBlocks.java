@@ -1,7 +1,9 @@
 package net.potty.pottyutil.block;
 
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -10,6 +12,7 @@ import net.minecraft.util.Identifier;
 import net.potty.pottyutil.PottyUtil;
 import net.potty.pottyutil.block.custom.PedestalBlock;
 import net.potty.pottyutil.block.custom.PedestalBlock2;
+import net.potty.pottyutil.block.entity.ModBlockEntities;
 
 public class ModBlocks {
 
@@ -21,6 +24,10 @@ public class ModBlocks {
 
     public static final Block PEDESTAL2 = registerBlock("pedestal2",
             new PedestalBlock2(AbstractBlock.Settings.create().nonOpaque()));
+
+    public static final Block PEDESTAL3 = registerBlock("pedestal3",
+            new PedestalBlock2(AbstractBlock.Settings.create().nonOpaque()));
+
 
 
 

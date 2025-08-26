@@ -6,6 +6,7 @@ import net.potty.pottyutil.block.ModBlocks;
 import net.potty.pottyutil.block.entity.ModBlockEntities;
 import net.potty.pottyutil.item.ModItemGroups;
 import net.potty.pottyutil.item.ModItems;
+import net.potty.pottyutil.screen.ModScreenHandlers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,5 +23,6 @@ public class PottyUtil implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModBlockEntities.registerBlockEntities();
+		ModScreenHandlers.registerScreenHandlers();
 	}
 }
